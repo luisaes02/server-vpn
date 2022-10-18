@@ -63,7 +63,7 @@ def onmessage(server,message):
 
 def main():
     try:
-        vpn = MVPN('https://aulacened.uci.cu/','obiiii','Obysoft2001@')
+        vpn = MVPN('https://mooc.uniss.edu.cu/','stvz02','Stvz02**')
         vpn.on(onmessage)
         print('MVPN SERVER RUNING!')
         vpn.run()
